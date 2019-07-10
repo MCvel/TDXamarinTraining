@@ -505,7 +505,7 @@ for (var i = 0; i < chartContainers.length; i++) {
     google.setOnLoadCallback(GetAnonymousDelegate(hypotheticalGuaranteedData[i], chartContainers[i], drawVisualizationHypotheticalGuaranteed, customizeChartHypotheticalGuaranteed, incomeStartAges[i]));
 }
 
-var timeoutTimer = 15000;
+var timeoutTimer = 1000;
 
 if (chartContainers.length === 0) {
     timeoutTimer = 0;
